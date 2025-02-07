@@ -26,7 +26,7 @@ function App() {
         <div className=" block h-auto font-Jost bg-white xl:px-[164px] lg:px-[114px] lg:pt-16 md:pt-16 lg:pb-3 md:pb-3 md:px-10 max-sm:px-0 max-sm:pt-[35px] max-sm:pb-[15px] relative z-10">
           <nav className="flex flex-row justify-between items-center pb-[67px] uppercase text-sm max-sm:mx-6">
             {/* Logo */}
-            <Link to="/">
+            <Link to="designo_website/">
               <img
                 src={logoDark}
                 alt="Designo Logo"
@@ -37,17 +37,17 @@ function App() {
             {/* Desktop Navigation */}
             <ul className="flex-row justify-between items-center gap-[42px] md:flex max-sm:hidden">
               <li>
-                <Link to="/about" className="hover:underline">
+                <Link to="designo_website/about" className="hover:underline">
                   Our Company
                 </Link>
               </li>
               <li>
-                <Link to="/locations" className="hover:underline">
+                <Link to="designo_website/locations" className="hover:underline">
                   Location
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:underline">
+                <Link to="designo_website/contact" className="hover:underline">
                   Contact
                 </Link>
               </li>
@@ -69,21 +69,21 @@ function App() {
               } text-primary-White text-2xl font-normal tracking-wide flex flex-col z-50`}
             >
               <Link
-                to="/about"
+                to="designo_website/about"
                 className="hover:underline"
                 onClick={toggleMenu}
               >
                 Our Company
               </Link>
               <Link
-                to="/locations"
+                to="designo_website/locations"
                 className="hover:underline"
                 onClick={toggleMenu}
               >
                 Location
               </Link>
               <Link
-                to="/contact"
+                to="designo_website/contact"
                 className="hover:underline"
                 onClick={toggleMenu}
               >
@@ -102,13 +102,13 @@ function App() {
           {/* Routes */}
           <div className="h-auto mb-[393px] max-sm:mb-[430px]">
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/locations" element={<Locations />} />
-              <Route path="/website_design" element={<Website_design />} />
-              <Route path="/app_design" element={<App_design />} />
-              <Route path="/graphic_design" element={<Graphic_design />} />
+              <Route path="designo_website/" element={<Home />} />
+              <Route path="designo_website/about" element={<About />} />
+              <Route path="designo_website/contact" element={<Contact />} />
+              <Route path="designo_website/locations" element={<Locations />} />
+              <Route path="designo_website/website_design" element={<Website_design />} />
+              <Route path="designo_website/app_design" element={<App_design />} />
+              <Route path="designo_website/graphic_design" element={<Graphic_design />} />
             </Routes>
           </div>
 
