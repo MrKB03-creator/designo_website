@@ -210,7 +210,7 @@ const About = () => {
                 United Kingdom
               </h3>
               <Link
-                to={"/locations#united-kingdom"}
+                to={"/locations#unitedKingdom"}
                 className=" flex items-center justify-center w-[152px] h-[56px] bg-primary-Peach text-primary-White z-10 rounded-lg uppercase text-[15px] font-medium hover:bg-secondary-LightPeach"
                 onClick={() => window.scrollTo(0, 0)}
               >

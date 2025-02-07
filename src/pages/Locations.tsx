@@ -154,7 +154,7 @@ const Locations = () => {
       {/* United Kingdom */}
       <section
         className="w-full flex flex-col gap-[30px] z-10 lg:flex-row lg:h-[326px] md:h-[632px] max-sm:gap-0  max-sm:h-[715px]  max-sm:rounded-none"
-        id="united-kingdom"
+        id="unitedKingdom"
       >
         {/* United Kingdom desktop Information*/}
         <div className=" relative flex-col gap-6 justify-center items-start w-[70%] rounded-[15px] bg-primary-LightPink h-auto py-[5%] px-[8%] lg:flex hidden z-10">
@@ -185,7 +185,7 @@ const Locations = () => {
 
         {/* United Kingdom Map */}
         <div className="rounded-[15px] w-full lg:h-full lg:w-[30%] md:h-[326px] max-sm:h-[320px]  max-sm:rounded-none object-cover z-10 ">
-          <Maps location="united-kingdom" />
+          <Maps location="unitedKingdom" />
         </div>
 
         {/* United Kingdom mobile & Tablet Information */}
