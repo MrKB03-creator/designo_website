@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="584"
+   height="584"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="bg-pattern-design-pages-intro-mobile.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:lockguides="false"
+     showguides="false"
+     inkscape:zoom="0.71223158"
+     inkscape:cx="106.00485"
+     inkscape:cy="216.22181"
+     inkscape:window-width="1384"
+     inkscape:window-height="811"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6" />
+  <defs
+     id="defs2">
+    <linearGradient
+       x1="0"
+       y1="0.5"
+       x2="1"
+       y2="0.5"
+       id="a">
+      <stop
+         stop-color="#5D0202"
+         stop-opacity="0"
+         offset="0%"
+         id="stop1" />
+      <stop
+         stop-color="#5D0202"
+         stop-opacity=".498"
+         offset="100%"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#a"
+       id="linearGradient7"
+       x1="584"
+       y1="438"
+       x2="876"
+       y2="438"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#a"
+       id="linearGradient8"
+       x1="292"
+       y1="438"
+       x2="584"
+       y2="438"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#a"
+       id="linearGradient9"
+       x1="584"
+       y1="146"
+       x2="876"
+       y2="146"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     transform="matrix(1,0,0,-1,-290.74724,584.52517)"
+     fill="none"
+     fill-rule="evenodd"
+     opacity="0.309"
+     id="g7">
+    <circle
+       fill="url(#a)"
+       transform="matrix(0,-1,-1,0,1168,1168)"
+       cx="730"
+       cy="438"
+       r="146"
+       id="circle2"
+       style="fill:url(#linearGradient7)" />
+    <circle
+       fill="url(#a)"
+       transform="matrix(-1,0,0,1,876,0)"
+       cx="438"
+       cy="438"
+       r="146"
+       id="circle3"
+       style="fill:url(#linearGradient8)" />
+    <circle
+       transform="matrix(0,1,1,0,-292,292)"
+       cx="146"
+       cy="438"
+       r="146"
+       id="circle4" />
+    <circle
+       fill="url(#a)"
+       transform="matrix(0,-1,-1,0,876,876)"
+       cx="730"
+       cy="146"
+       r="146"
+       id="circle5"
+       style="fill:url(#linearGradient9)" />
+    <circle
+       transform="matrix(-1,0,0,1,876,0)"
+       cx="438"
+       cy="146"
+       r="146"
+       id="circle6" />
+  </g>
+</svg>

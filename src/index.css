@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer Jost{
+    @font-face {
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 400,700;
+      font-display: swap;
+      src: url(./assets/Jost/Jost-VariableFont_wght.ttf) format('truetype');
+    }
+  }
+
