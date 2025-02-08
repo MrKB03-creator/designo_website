@@ -44,7 +44,7 @@ const Maps: React.FC<MapsProps> = ({ location }) => {
   const center = locations[location as keyof typeof locations];
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyC5eyE26ZvvzzeFGC9YDjN7D2m1_rdWK_U">
+    <LoadScript googleMapsApiKey="">
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
