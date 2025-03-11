@@ -1,16 +1,16 @@
 {
-  "homepage": "https://MrKB03-creator.github.io/designo_website/",
   "name": "designo_website",
+  "homepage": "https://MrKB03-creator.github.io/designo_website/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.5",
